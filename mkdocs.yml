@@ -1,0 +1,40 @@
+site_name: Malscan Documentation
+site_description: Malscan Documentation
+repo_url: https://github.com/malscan/docs
+pages:
+    - Home: index.md
+    - General:
+        - Contact: general/contact.md
+        - Reporting Bugs : general/reporting_bugs.md
+        - TODO List: general/todo.md
+    - Guides:
+      - Installation Guides:
+          - Getting Started: guides/installation/getting_started.md
+          - System Requirements: guides/installation/requirements.md
+          - CentOS 6.x: guides/installation/centos6.md
+          - CentOS 7.x: guides/installation/centos7.md
+          - Ubuntu: guides/installation/ubuntu.md
+          - Debian: guides/installation/debian.md
+          - Docker: guides/installation/docker.md
+          - Developer Installation: guides/installation/developer_installation.md
+      - Upgrade Guides:
+          - General Upgrades: guides/upgrading/general_upgrades.md
+          - Malscan <1.7 to 1.7: guides/upgrading/malscan15_to_17.md
+      - User Guides:
+          - Notification Setup: guides/utilization/notifications.md
+          - Malware Scan: guides/utilization/scan.md
+          - Mimetipe Scan: guides/utilization/mimescan.md
+          - String Scan: guides/utilization/stringscan.md
+          - Tripwire: guides/utilization/tripwire.md
+      - Developers Guides:
+          - General Guide: guides/development/general.md
+          - Package Development: guides/development/package_development.md
+    - Changelog: changelog.md
+theme: mkdocs
+theme_dir: malscan_theme
+dev_addr: 0.0.0.0:9010
+extra_css: [css/style.css]
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: 
