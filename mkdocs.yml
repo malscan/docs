@@ -11,8 +11,8 @@ pages:
       - Installation Guides:
           - Getting Started: guides/installation/getting_started.md
           - System Requirements: guides/installation/requirements.md
-          - CentOS 6.x: guides/installation/centos6.md
           - CentOS 7.x: guides/installation/centos7.md
+          - CentOS 6.x: guides/installation/centos6.md
           - Ubuntu: guides/installation/ubuntu.md
           - Debian: guides/installation/debian.md
           - Docker: guides/installation/docker.md
