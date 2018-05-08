@@ -5,7 +5,7 @@
 ## System Requirements
 
 Malscan uses a limited set of requirements, with additional requirements based on the fuctions within malscan you wish to use.
-To view the full list of requirements for Malscan, see your [System Requirements](guides/installation/requirements/) page.
+To view the full list of requirements for Malscan, see your [System Requirements](requirements/) page.
 
 ## Supported Operating Systems
 
